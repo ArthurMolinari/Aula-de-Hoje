@@ -1,0 +1,114 @@
+body {
+    background: #000000;
+}
+#banner{
+    width: 50%;
+    border-radius: 60px;
+    border: 3px solid black;
+}
+.caixa{
+    padding-right: 300px;
+    position: relative;
+    width: 940px;
+    right: 0 auto;
+    margin: 0 auto;
+    font-color: white;
+
+}
+header{
+    background: #98FB98;
+    padding: 20px 0;
+    border: 4px solid green;
+    border-radius: 10px;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{ /*/ MUDAR A COR QUANDO PASSA O MAUSE SOBRE O ELEMENTO */
+    color: green;
+}
+.Produtos li{
+    display: inline-block;
+    text-align: center;
+
+    width: 30%;
+    vertical-align: top;
+    margin: 0 0.7%;
+    padding: 10px 10px;
+
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px; /*/ ARREDONDAR A BORDA */
+    border-style: bold;
+}
+#banner1{
+    border: 3px solid green;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+#banner2{
+    border: 3px solid green;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+#banner3{
+    border: 3px solid green;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.Produtos li:hover{
+    border-color: green;
+}
+.Produtos li:active{/*/MUDAR A COR QUANDO CLICADO*/
+    border-color: green;
+}
+.Produtos li:hover h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.Produtos li:hover h3{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.Produtos li:hover h4{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, tr {
+    border:1px solid green;
+    padding: 8px 15px;  
+    color: white;
+}   
+.Cardápio: hover{
+color: green;
+}

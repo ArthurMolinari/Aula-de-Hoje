@@ -1,0 +1,40 @@
+body{
+    background: black;
+}
+header{
+    background: #98FB98;
+    padding: 20px 0;
+    border: 4px solid green;
+    border-radius: 10px;
+}
+.receitas{
+    background: #98FB98;
+    height: 200px;
+    position: relative;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 10%;
+    padding: 0px 0px;
+
+    box-sizing: border-box;
+    border: 4px solid green;
+    border-radius: 10px; /*/ ARREDONDAR A BORDA */
+    border-style: bold;
+}
+.tiramisu_ing{
+    display: inline-block;
+    text-align: left;
+    padding: 0px 50px;
+}
+#banner1{
+    display: inline-block;
+    border: 3px solid black;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    size: 500px;
+    margin-left: 10px;
+    border-radius: 20px;
+}

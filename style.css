@@ -1,0 +1,104 @@
+main{
+  width: 940px;
+  margin: 0px;
+}
+form {
+    background-color:rgb(176 196 222);
+	color: rgb(0, 0, 0);
+    padding: 40px;
+    width: fit-content;
+
+    border-style: double;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 9px 5px 20px gray;
+
+}
+body{
+    background-color: #7FFFD4;
+}
+button{
+	width: 40%;
+	height: 5%;
+	display: inline-block;
+	background-color: rgb(131,111,255);
+	border-style: double;
+	border: 2px solid rgb(0, 0, 0);
+}
+p{
+    text-align: center
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+#mensagem{
+	border-radius: 5px 25px 5px 25px;
+	border: 0 none;
+}
+form label {
+	margin: 40px;
+	margin-left: 0px;
+}
+form input{
+      display: block;
+      margin: 5 0 20px;
+      padding: 8px 5px;
+      width: 100%;
+      border-radius: 5px 20px 5px 20px;
+      box-shadow: none;
+      border: 0 none;
+  }
+.receitas{
+    background: #98FB98;
+    height: 200px;
+    position: relative;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 10%;
+    padding: 0px 0px;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px; /*/ ARREDONDAR A BORDA */
+    border-style: bold;
+}
+.lasanha_ing{
+    display: inline-block;
+    text-align: left;
+}
+.lasanha_prep{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+.form{
+  margin: 20px;
+  text-align: center;
+}
+.name{
+  border-radius: 20px;
+}
+.b{
+  background-color: blue;
+}
+#center{
+  margin: 6%;
+
+}
+.title{
+  text-align: center;
+  margin: 5%;
+  
+}
+.card{
+  background-color: #ADD8E6;
+  border-radius: 10px;
+}
+.fora{
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
